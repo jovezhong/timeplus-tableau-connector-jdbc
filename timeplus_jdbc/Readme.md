@@ -1,1 +1,1 @@
-ClickHouse Tableau JDBC Connector.
+Timeplus Tableau JDBC Connector.
