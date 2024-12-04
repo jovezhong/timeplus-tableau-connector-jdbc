@@ -21,7 +21,7 @@ Requirements
     - Windows: `C:\Program Files\Tableau\Drivers`
     - You need to create the folder if it doesn't already exist
 2. Download the latest `timeplus-jdbc.taco` from the [Releases](https://github.com/timeplus-io/timeplus-tableau-connector-jdbc/releases) page, and place it to:
-    - macOS: `~/Documents/My Tableau Repository/Connectors`
+    - macOS: `~/Documents/My\ Tableau\ Repository/Connectors`
     - Windows: `C:\Users\[Windows User]\Documents\My Tableau Repository\Connectors`
 3. Run Tableau Desktop
 4. In Tableau Desktop: **Connect** ➔ **To a Server** ➔ **Timeplus JDBC by Timeplus, Inc.**
