@@ -61,5 +61,5 @@ jobs:
         with:
           name: timeplus_jdbc_unsigned.taco
           # path: timeplus-tableau-jdbc/signing_utility/timeplus_jdbc_signed.taco
-          path: timeplus-tableau-connector-jdbc/connector-packager/packaged-connector/timeplus_jdbc-v*.taco
+          path: /home/runner/work/timeplus-tableau-connector-jdbc/timeplus-tableau-connector-jdbc/connector-packager/packaged-connector/timeplus_jdbc-v0.0.1.taco
           if-no-files-found: error
