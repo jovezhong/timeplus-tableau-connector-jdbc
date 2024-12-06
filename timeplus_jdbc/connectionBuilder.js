@@ -69,7 +69,7 @@
     var customUrlParamsString = customUrlParamsArr.join('&');
 
     // building full URL string
-    var urlBuilder = "jdbc:timeplus://" + attr['server'] + ":" + attr['port']
-        + "/?" + customUrlParamsString;
+    var urlBuilder = "jdbc:timeplus://" + attr['server'] + ":" + attr['port'];
+        //+ "/?" + customUrlParamsString;
     return [urlBuilder];
 })

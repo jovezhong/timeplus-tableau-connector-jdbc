@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<connector-plugin class='timeplus_jdbc' superclass='jdbc' plugin-version='0.3.1' name='Timeplus JDBC' version='18.1' min-version-tableau='2020.4'>
+<connector-plugin class='timeplus_jdbc' superclass='jdbc' plugin-version='0.0.1' name='Timeplus JDBC' version='18.1' min-version-tableau='2020.4'>
   <vendor-information>
     <company name='Timeplus, Inc.'/>
     <support-link url='https://github.com/timeplus-io/timeplus-tableau-connector-jdbc/issues'/>
-    <driver-download-link url='https://github.com/timeplus-io/timeplus-jdbc/releases'/>
+    <driver-download-link url='https://github.com/timeplus-io/timeplus-native-jdbc/releases'/>
   </vendor-information>
   <connection-customization class='timeplus_jdbc' enabled='true' version='10.0'>
     <vendor name='vendor'/>
