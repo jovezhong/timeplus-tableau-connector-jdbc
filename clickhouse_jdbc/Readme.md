@@ -1,1 +1,0 @@
-ClickHouse Tableau JDBC Connector.

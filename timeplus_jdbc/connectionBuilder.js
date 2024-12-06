@@ -36,11 +36,11 @@
     }
 
     // default type mappings
-    typeMappings = {'UInt64': 'java.lang.String',
-                    'UInt128': 'java.lang.String',
-                    'Int128': 'java.lang.String',
-                    'UInt256': 'java.lang.String',
-                    'Int256': 'java.lang.String'};
+    typeMappings = {'uint64': 'java.lang.String',
+                    'uint128': 'java.lang.String',
+                    'int128': 'java.lang.String',
+                    'uint256': 'java.lang.String',
+                    'int256': 'java.lang.String'};
 
     // setting custom type mappings
     if(attr['v-custom-type-mappings'] && attr['v-custom-type-mappings'].length > 0){
@@ -69,7 +69,7 @@
     var customUrlParamsString = customUrlParamsArr.join('&');
 
     // building full URL string
-    var urlBuilder = "jdbc:clickhouse://" + attr['server'] + ":" + attr['port']
-        + "/?" + customUrlParamsString;
+    var urlBuilder = "jdbc:timeplus://" + attr['server'] + ":" + attr['port'];
+        //+ "/?" + customUrlParamsString;
     return [urlBuilder];
 })
