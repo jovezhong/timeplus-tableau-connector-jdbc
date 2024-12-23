@@ -2057,60 +2057,60 @@
     comprehensive list of supported aggregations and date truncations
   -->
   <supported-aggregations>
-    <aggregation value='agg_count'/>
-    <aggregation value='agg_countd'/>
-    <aggregation value='agg_sum'/>
-    <aggregation value='agg_avg'/>
-    <aggregation value='agg_min'/>
-    <aggregation value='agg_max'/>
-    <aggregation value='agg_stdev'/>
-    <aggregation value='agg_stdevp'/>
-    <aggregation value='agg_var'/>
-    <aggregation value='agg_varp'/>
-    <aggregation value='agg_covar'/>
-    <aggregation value='agg_covarp'/>
-    <aggregation value='agg_corr'/>
-    <aggregation value='agg_sum_xsqr'/>
-    <aggregation value='agg_attr'/>
-    <aggregation value='agg_median'/>
-    <aggregation value='agg_percentile'/>
-    <aggregation value='agg_skewness'/>
-    <aggregation value='agg_kurtosis'/>
-    <aggregation value='agg_inout'/>
+    <aggregation value='AGG_COUNT'/>
+    <aggregation value='AGG_COUNTD'/>
+    <aggregation value='AGG_SUM'/>
+    <aggregation value='AGG_AVG'/>
+    <aggregation value='AGG_MIN'/>
+    <aggregation value='AGG_MAX'/>
+    <aggregation value='AGG_STDEV'/>
+    <aggregation value='AGG_STDEVP'/>
+    <aggregation value='AGG_VAR'/>
+    <aggregation value='AGG_VARP'/>
+    <aggregation value='AGG_COVAR'/>
+    <aggregation value='AGG_COVARP'/>
+    <aggregation value='AGG_CORR'/>
+    <aggregation value='AGG_SUM_XSQR'/>
+    <aggregation value='AGG_ATTR'/>
+    <aggregation value='AGG_MEDIAN'/>
+    <aggregation value='AGG_PERCENTILE'/>
+    <aggregation value='AGG_SKEWNESS'/>
+    <aggregation value='AGG_KURTOSIS'/>
+    <aggregation value='AGG_INOUT'/>
 <!--
     <aggregation value='agg_collect'/>
     <aggregation value='agg_quart1'/>
     <aggregation value='agg_quart3'/>
     <aggregation value='agg_user'/>
 -->
-    <aggregation value='agg_year'/>
-    <aggregation value='agg_qtr'/>
-    <aggregation value='agg_month'/>
-    <aggregation value='agg_day'/>
-    <aggregation value='agg_week'/>
-    <aggregation value='agg_weekday'/>
-    <aggregation value='agg_monthyear'/>
-    <aggregation value='agg_mdy'/>
-    <aggregation value='agg_hour'/>
-    <aggregation value='agg_minute'/>
-    <aggregation value='agg_second'/>
-    <aggregation value='agg_iso_year'/>
-    <aggregation value='agg_iso_qtr'/>
-    <aggregation value='agg_iso_week'/>
-    <aggregation value='agg_iso_weekday'/>
+    <aggregation value='AGG_YEAR'/>
+    <aggregation value='AGG_QTR'/>
+    <aggregation value='AGG_MONTH'/>
+    <aggregation value='AGG_DAY'/>
+    <aggregation value='AGG_WEEK'/>
+    <aggregation value='AGG_WEEKDAY'/>
+    <aggregation value='AGG_MONTHYEAR'/>
+    <aggregation value='AGG_MDY'/>
+    <aggregation value='AGG_HOUR'/>
+    <aggregation value='AGG_MINUTE'/>
+    <aggregation value='AGG_SECOND'/>
+    <aggregation value='AGG_ISO_YEAR'/>
+    <aggregation value='AGG_ISO_QTR'/>
+    <aggregation value='AGG_ISO_WEEK'/>
+    <aggregation value='AGG_ISO_WEEKDAY'/>
 
-    <aggregation value='trunc_year'/>
-    <aggregation value='trunc_qtr'/>
-    <aggregation value='trunc_month'/>
-    <aggregation value='trunc_day'/>
-    <aggregation value='trunc_week'/>
-    <aggregation value='trunc_hour'/>
-    <aggregation value='trunc_minute'/>
-    <aggregation value='trunc_second'/>
-    <aggregation value='trunc_iso_year'/>
-    <aggregation value='trunc_iso_qtr'/>
-    <aggregation value='trunc_iso_week'/>
-    <aggregation value='trunc_iso_weekday'/>
+    <aggregation value='TRUNC_YEAR'/>
+    <aggregation value='TRUNC_QTR'/>
+    <aggregation value='TRUNC_MONTH'/>
+    <aggregation value='TRUNC_DAY'/>
+    <aggregation value='TRUNC_WEEK'/>
+    <aggregation value='TRUNC_HOUR'/>
+    <aggregation value='TRUNC_MINUTE'/>
+    <aggregation value='TRUNC_SECOND'/>
+    <aggregation value='TRUNC_ISO_YEAR'/>
+    <aggregation value='TRUNC_ISO_QTR'/>
+    <aggregation value='TRUNC_ISO_WEEK'/>
+    <aggregation value='TRUNC_ISO_WEEKDAY'/>
    </supported-aggregations>
 
   <!--
@@ -2199,7 +2199,7 @@
       Operator: ([NOT (]lhs <=> rhs[)])
       [Default]Formula: ((lhs [!]= rhs) OR[AND] (lhs IS [NOT] NULL AND[OR] rhs IS [NOT] NULL))
     -->
-    <format-is-distinct value='no_null_check' />
+    <format-is-distinct value='NoNullCheck' />
     <!--
       format-order-by
       [Default]DirectionOnly: ORDER BY col ASC/DESC
@@ -2229,7 +2229,7 @@
       [Default]Case
       BalancedIIF
     -->
-    <format-simple-case value='balanced_iif' />
-    <format-string-literal value='standard'/>
+    <format-simple-case value='BalancedIIF' />
+    <format-string-literal value='Standard'/>
   </sql-format>
 </dialect>
