@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<connector-plugin class='timeplus_jdbc' superclass='jdbc' plugin-version='0.0.1' name='Timeplus JDBC' version='18.1' min-version-tableau='2020.4'>
+<connector-plugin class='timeplus_jdbc' superclass='jdbc' plugin-version='0.0.2' name='Timeplus JDBC' version='18.1' min-version-tableau='2020.4'>
   <vendor-information>
     <company name='Timeplus, Inc.'/>
     <support-link url='https://github.com/timeplus-io/timeplus-tableau-connector-jdbc/issues'/>
